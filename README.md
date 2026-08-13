@@ -1,1 +1,1 @@
-# Coordinated_Zero_Sum_Masking_Federated_Learning-
+This repository contains the federated learning implementation used in our study, including the baseline, client-local masking, and coordinated zero-sum masking settings on synthetic and NSL-KDD datasets. The setup uses Flower with FedAvg, 10 communication rounds, and 200 local epochs per round, and also includes client-failure experiments. In addition, diagnostic LLM client and server implementations are provided for generating structured, metric-conditioned post-round training summaries.
