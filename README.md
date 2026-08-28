@@ -37,12 +37,12 @@ To spin up a simulation of coordinated clients interacting with an honest-but-cu
 python src/server.py 
 
 # Spin up independent client nodes (In separate terminal windows)
-python src/client.py --partition-id 7 --num-partitions 0
-python src/client.py ---partition-id 7 --num-partitions 1
-python src/client.py --partition-id 7 --num-partitions 2
+python src/client.py --partition-id 0 --num-partitions 10
+python src/client.py ---partition-id 1 --num-partitions 10
+python src/client.py --partition-id 2 --num-partitions 10
 
 ```
-
+**Note:** The `--partition-id` and total `--num-partitions` values may vary dynamically depending on specific experimental design, dataset configuration, or cross-silo simulation needs.
 ---
 
 ## Contacts
